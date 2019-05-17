@@ -1,0 +1,47 @@
+---
+title: "Notes D9"
+author: "Adam Zawitkowski"
+date: "April 30, 2019"
+output: html_document
+---
+# Data Science is a combination of 
+# Computing, Statistics and Expertise in a field -Dr.Green
+
+#=== Statistical Inference and Central Limit Theorum ===#
+
+# 1. Statistical inference: Best guess about what 
+# story the data are telling
+# Dr.G "Inferis the process of using a sample to make 
+# statements about a population"
+
+# *** Steps for inference 
+# 1. Gather a representative sample
+# 2. Establish a hypothesis
+# 3. Set a level of confidence (a - alpha) to balance Type 1 & Type 2       errors
+# 4. Test the hypothesis
+# 5. State the results
+
+# In research we only have one sample
+#   We need to know how :reliable: the one sample is relative to 
+#   what is possible
+#   CLT helps us understand "What is possible"
+
+
+# 2. Central Limit theorum: THere is only so much the data can 
+# explain
+
+# -Tells us that the descriptive statistics does not depend on 
+#   the distribution of the variable
+#   The descriptive statistic has normal dist.
+#   regardless of the dist of the variable
+#   we will show with variable that different distribution
+# - the larger the sample, the better
+
+CLT - is what allows us to do regression
+
+Seting your alpha - a "THis is how certain I want to be with my analysis.
+
+
+
+
+

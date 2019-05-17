@@ -1,0 +1,92 @@
+---
+title: "D_7 Notes"
+output: html_notebook
+---
+# D_7 Slide 6 clear steps for doing EDA
+
+- Gennerally spend lots of time cycling through steps 3 - 4
+
+***
+
+## Convert variables into data types that make sense
+
+###Things like Zip codes are actually Factors
+
+- Because it is a location classification
+
+###Convert date data into a date "type"
+- str(data) should return a Date/ Factor/ int
+
+***
+
+# Code for 20 = 30 minutes everyday
+
+##It's like a muscle that needs excersize
+
+- ###You should never break from coding for more than 3 days
+
+***
+
+#EDA
+
+###When you are doing your EDA you are just slicing data to look at certain things
+
+# Dates!!!
+
+###Consider the following
+
+ - not every year is 365 (leap y)
+ - not every day has 24hrs (daylight savings)
+ - does every minute have 60 sec
+ 
+
+Office%>%
+mutate(ord_plc_time = ship.date - order.date)%>%
+
+- Do this to get the difference between when an item was ordered
+and when it was shipped.
+
+***
+####There is a way to create a custom order to the bar graphs and other things
+
+***
+####Slide 11 or 12
+###You can use the same code chunks to create wide array of graphs with different variables
+
+***
+#### Slide 14
+
+#Use mutate to display dates as years or months or days
+
++ Also you can check for seasonality
+
+***
+###Slide 17
+#Facets
+
++ Instead of having 4 lines in 1 graph, you get 1 line in 4 graphs 
+- y varibale remains constant with profits
+
+#Remember the | is the for "or" and & is for "and"
+
+###Slide 18
+Good example of showing only losses 
+
+- code: filter(profit < 0)
+***
+###Slide 22
+Table code
+
+###Making tables shine with "Kable()" & Kable Extra
+###Slide 30 - 34
++ highlighting rows
++ making column/ rowtitle appear at angles
++ removing/ adding boarders and row indents
++ changing the color and the size of the text in the rows
+
+#Add features from "formatt" table package
+
+###Slide 35
+
+
+
